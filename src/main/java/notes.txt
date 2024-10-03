@@ -1,0 +1,13 @@
+A Program to demonstrate the use of @PathVariable annotation:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ApplicationController1.java
+* ApplicationController2.java
+Notes:
+* The @PathVariable annotation is used to extract values from web request and bind them to method arguments.
+* The @PathVariable annotation can be supported at parameter level only.
+* This annotation can accepts attributes, those are value, name and required.
+* The value and name attributes are used to bind the path variable, if value and name is not defined the path variable should match the method argument.
+* The required annotation is used to make path variable to mandatory and non mandatory, it accept value as boolean and default value of required attribute is true.
+* The count of path variable should match with web request, other wise it return '404 – Not Found'
